@@ -19,10 +19,11 @@ Drum sets need to have an additional attribute that describes how many pieces th
 
 Create some Ruby classes that will allow you to create different types of instruments, and set the attributes for each after the instruments are created like so:
 
+```ruby
 guitar1 = Guitar.new
 guitar1.brand = "Gibson"
 guitar1.model = "Les Paul"
-
+```
 
 Music Store - Example 2
 ============
