@@ -36,9 +36,11 @@ Since most of their guitars have steel strings, they would like this attribute t
 
 They will set the rest of the attributes after a new instrument is created. The code to to create a new guitar and check for string material should behave something like the following:
 
+```ruby
 guitar1 = Guitar.new
 guitar1.string_material
-> "Steel"
+# should return "Steel"
+```
 
 
 Music Store - Example 3
@@ -50,8 +52,9 @@ The store is getting busier, and they find that setting all the attributes for a
 
 They would like to be able to set all the attributes for any instrument at the same time, when they create the instrument like so:
 
+```ruby
 guitar1 = Guitar.new("Gibson","Les Paul",799,"GUIT123","Rosewood","Steel")
-
+```
 
 Music Store - Example 4
 ============
@@ -62,10 +65,12 @@ They would like to keep track of a count of all instruments added, regardless of
 
 The counter should not be attached to any particular instance, and should return the count of all instruments created like the following code example:
 
+```ruby
 guitar1 = Guitar.new("Gibson","Les Paul",799,"GUIT123","Rosewood","Steel")
 drumset1 = DrumSet.new("Pearl","Vision",1099,"DRUM123",7)
 Instrument.count
-> 2
+# should return 2
+```
 
 
 
