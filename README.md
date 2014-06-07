@@ -15,7 +15,7 @@ All instruments need to have the following attributes: brand, model, price, sku
 
 Guitars need to have an additional attribute that describes what type of wood they are composed of: wood type
 
-Drum sets need to have an additional attribute that describes how many pieces the set comes with: pieces
+Drum sets also need to have an additional attribute that describes how many pieces the set comes with: pieces
 
 Create some Ruby classes that will allow you to create different types of instruments, and set the attributes for each after the instruments are created like so:
 
