@@ -29,11 +29,15 @@ Music Store - Example 2
 
 Your music store client is asking for more help.
 
-Apparently, the strings on a guitar will be made of either nylon or steel. They would like you to add an attribute that will store what material the strings are made of: String Material
+Apparently, the strings on a guitar will be made of either nylon or steel. They would like you to add an attribute that will store what material the strings are made of: string material
 
 Since most of their guitars have steel strings, they would like this attribute to default to "Steel" when creating a new guitar.
 
-They will set the rest of the attributes after a new instrument is created.
+They will set the rest of the attributes after a new instrument is created. The code to to create a new guitar and check for string material should behave something like the following:
+
+guitar1 = Guitar.new
+guitar1.string_material
+> "Steel"
 
 
 Music Store - Example 3
@@ -54,6 +58,14 @@ Music Store - Example 4
 Impressed by your OOP prowess, your music store continues to seek your expertise.
 
 They would like to keep track of a count of all instruments added, regardless of type.
+
+The counter should not be attached to any particular instance, and should return the count of all instruments created like the following code example:
+
+guitar1 = Guitar.new("Gibson","Les Paul",799,"GUIT123","Rosewood","Steel")
+drumset1 = DrumSet.new("Pearl","Vision",1099,"DRUM123",7)
+Instrument.count
+> 2
+
 
 
 
