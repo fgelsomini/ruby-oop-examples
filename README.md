@@ -22,6 +22,8 @@ guitar1 = Guitar.new
 guitar1.brand = "Gibson"
 guitar1.model = "Les Paul"
 ```
+[View Example](https://github.com/fgelsomini/oop_examples/blob/master/music_store_1.rb)
+
 
 Music Store - Example 2
 ============
@@ -37,6 +39,7 @@ guitar1 = Guitar.new
 guitar1.string_material
 # should return "Steel"
 ```
+[View Example](https://github.com/fgelsomini/oop_examples/blob/master/music_store_2.rb)
 
 
 Music Store - Example 3
@@ -49,6 +52,8 @@ They would like to be able to set all the attributes for any instrument at the s
 ```ruby
 guitar1 = Guitar.new("Gibson","Les Paul",799,"GUIT123","Rosewood","Steel")
 ```
+[View Example](https://github.com/fgelsomini/oop_examples/blob/master/music_store_3.rb)
+
 
 Music Store - Example 4
 ============
@@ -63,7 +68,7 @@ drumset1 = DrumSet.new("Pearl","Vision",1099,"DRUM123",7)
 Instrument.count
 # should return 2
 ```
-
+[View Example](https://github.com/fgelsomini/oop_examples/blob/master/music_store_4.rb)
 
 
 
