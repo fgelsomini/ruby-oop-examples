@@ -1,4 +1,4 @@
-OOP Examples
+Ruby Basic OOP Examples
 ============
 
 Some simple examples that should help clarify *inheritance, initialization, instance variables, and class variables*. Read the example summaries below and try to come up with your own solution before taking a look at the example code.
