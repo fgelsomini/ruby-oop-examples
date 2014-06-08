@@ -13,9 +13,9 @@ Right now, they are starting small, selling only guitars and drums, but they hop
 
 All instruments need to have the following attributes: brand, model, price, sku
 
-Guitars need to have an additional attribute that describes what type of wood they are composed of: wood type
+Guitars need to have an additional attribute that describes what type of wood they are composed of.
 
-Drum sets also need to have an additional attribute that describes how many pieces the set comes with: pieces
+Drum sets also need to have an additional attribute that describes how many pieces the set comes with.
 
 Create some Ruby classes that will allow you to create different types of instruments, and set the attributes for each after the instruments are created like so:
 
@@ -30,9 +30,9 @@ Music Store - Example 2
 
 Your music store client is asking for more help.
 
-Apparently, the strings on a guitar will be made of either nylon or steel. They would like you to add an attribute that will store what material the strings are made of: string material
+Apparently, the strings on a guitar will be made of either nylon or steel. They would like you to add an attribute that will store what material the strings are made of.
 
-Since most of their guitars have steel strings, they would like this attribute to default to "Steel" when creating a new guitar.
+Since most of their guitars have steel strings, they would like this particular attribute to default to "Steel" when creating a new guitar.
 
 They will set the rest of the attributes after a new instrument is created. The code to to create a new guitar and check for string material should behave something like the following:
 
