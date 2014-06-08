@@ -1,7 +1,7 @@
 OOP Examples
 ============
 
-This repo contains a few Ruby files that will help illustrate some of the basic concepts we covered in the breakout. First, read the example summaries below and try to come up with your own solution before taking a look at the example code.
+Some simple examples that should help clarify *inheritance, initialization, instance variables, and class variables*. Read the example summaries below and try to come up with your own solution before taking a look at the example code.
 
 
 Music Store - Example 1
