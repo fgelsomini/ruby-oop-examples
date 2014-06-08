@@ -2,6 +2,8 @@ class Instrument
 
   attr_accessor :brand, :model, :price, :sku
 
+  # Set a class variable which will also be available to all 
+  # inherted classes AND instances
   @@counter = 0
 
   # Tricky part here is we need a way to access the class variable
@@ -25,6 +27,8 @@ class Guitar < Instrument
     @sku = sku
     @wood_type = wood_type
     @string_material = string_material
+    # Increment the class variable counter - notice we have access to 
+    # this from within an instance method, but it holds its value at class level
     @@counter += 1
   end
 
