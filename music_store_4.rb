@@ -7,7 +7,7 @@ class Instrument
   # Tricky part here is we need a way to access the class variable
   # from outside the class hierarchy using dot notation i.e. Instrument.counter
   # One way to do this is to create our own class level "getter" as a class method
-  # which would behave exactly like an attr_reader for instance variables
+  # which would behave similar to an attr_reader for instance variables
   def self.counter
     @@counter
   end
