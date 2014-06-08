@@ -1,7 +1,7 @@
 OOP Examples
 ============
 
-Try your best to solve these problems without looking at the solutions first.
+The repo contains a few ruby files that will help illustrate some of the stuff we covered in the breakout. First, read the example summaries below and try to come up with your own solution before taking a look at the example code.
 
 
 Music Store - Example 1
@@ -46,9 +46,9 @@ guitar1.string_material
 Music Store - Example 3
 ============
 
-Weeks go by, and your music store client is asking for even more help. 
+Weeks go by, and your music store client is asking for more help. 
 
-The store is getting busier, and they find that setting all the attributes for a given instrument one by one is too time consuming. 
+The store is getting busy, and they are finding that setting the attributes for a given instrument one by one is too time consuming. 
 
 They would like to be able to set all the attributes for any instrument at the same time, when they create the instrument like so:
 
@@ -61,7 +61,7 @@ Music Store - Example 4
 
 Impressed by your OOP prowess, your music store continues to seek your expertise.
 
-They would like to keep track of a count of all instruments added, regardless of type.
+They would like to keep track of a count of all instruments created, regardless of type.
 
 The counter should not be attached to any particular instance, and should return the count of all instruments created like the following code example:
 
