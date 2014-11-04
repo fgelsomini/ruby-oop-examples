@@ -20,7 +20,11 @@ Create some Ruby classes that will allow you to create different types of instru
 ```ruby
 guitar1 = Guitar.new
 guitar1.brand = "Gibson"
+guitar1.brand
+# should return "Gibson"
 guitar1.model = "Les Paul"
+guitar1.model
+# should return "Les Paul"
 ```
 [View Example](https://github.com/fgelsomini/oop_examples/blob/master/music_store_1.rb)
 
