@@ -51,6 +51,10 @@ They would like to be able to set all the attributes for any instrument at the s
 
 ```ruby
 guitar1 = Guitar.new("Gibson","Les Paul",799,"GUIT123","Rosewood","Steel")
+guitar1.brand
+# should return "Gibson"
+guitar1.model
+# should return "Les Paul"
 ```
 [View Example](https://github.com/fgelsomini/oop_examples/blob/master/music_store_3.rb)
 
